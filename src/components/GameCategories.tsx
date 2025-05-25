@@ -11,35 +11,35 @@ const GameCategories = ({ onGameSelect }: GameCategoriesProps) => {
       id: 'math' as GameType,
       title: 'Simple Math',
       emoji: '🧮',
-      color: 'from-green-400 to-emerald-500',
+      color: 'from-blue-500 to-blue-600',
       description: 'Count and add with fun!'
     },
     {
       id: 'colors' as GameType,
       title: 'Colour Fun',
       emoji: '🎨',
-      color: 'from-pink-400 to-rose-500',
+      color: 'from-red-500 to-red-600',
       description: 'Learn beautiful colors!'
     },
     {
       id: 'animals' as GameType,
       title: 'Animal Friends',
-      emoji: '🐶',
-      color: 'from-yellow-400 to-orange-500',
+      emoji: '🐘',
+      color: 'from-green-500 to-green-600',
       description: 'Meet amazing animals!'
     },
     {
       id: 'instruments' as GameType,
       title: 'Music Magic',
-      emoji: '🎻',
-      color: 'from-purple-400 to-indigo-500',
+      emoji: '🎺',
+      color: 'from-yellow-500 to-yellow-600',
       description: 'Discover musical sounds!'
     },
     {
       id: 'dance' as GameType,
       title: 'Dance Party',
-      emoji: '🎵',
-      color: 'from-blue-400 to-cyan-500',
+      emoji: '💃',
+      color: 'from-orange-500 to-orange-600',
       description: 'Dance and move to music!'
     }
   ];

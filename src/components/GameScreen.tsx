@@ -19,11 +19,11 @@ const GameScreen = ({ gameType, childName, onBack }: GameScreenProps) => {
   const [score, setScore] = useState(0);
 
   const gameConfig = {
-    math: { title: 'Simple Math Fun', emoji: '🧮', color: 'from-green-400 to-emerald-500' },
-    colors: { title: 'Colour Adventure', emoji: '🎨', color: 'from-pink-400 to-rose-500' },
-    animals: { title: 'Animal Kingdom', emoji: '🐶', color: 'from-yellow-400 to-orange-500' },
-    instruments: { title: 'Music World', emoji: '🎻', color: 'from-purple-400 to-indigo-500' },
-    dance: { title: 'Dance Party', emoji: '🎵', color: 'from-blue-400 to-cyan-500' }
+    math: { title: 'Simple Math Fun', emoji: '🧮', color: 'from-blue-500 to-blue-600' },
+    colors: { title: 'Colour Adventure', emoji: '🎨', color: 'from-red-500 to-red-600' },
+    animals: { title: 'Animal Kingdom', emoji: '🐘', color: 'from-green-500 to-green-600' },
+    instruments: { title: 'Music World', emoji: '🎺', color: 'from-yellow-500 to-yellow-600' },
+    dance: { title: 'Dance Party', emoji: '💃', color: 'from-orange-500 to-orange-600' }
   };
 
   const config = gameConfig[gameType];
@@ -74,12 +74,12 @@ const GameScreen = ({ gameType, childName, onBack }: GameScreenProps) => {
         <div className="flex justify-between items-center mb-6">
           <Button
             onClick={onBack}
-            className="bg-white/80 text-purple-600 hover:bg-white rounded-2xl px-6 py-3 font-bold text-lg shadow-lg"
+            className="bg-white/80 text-blue-600 hover:bg-white rounded-2xl px-6 py-3 font-bold text-lg shadow-lg"
           >
             ← Back to Games
           </Button>
           <div className="bg-white/80 rounded-2xl px-6 py-3 shadow-lg">
-            <span className="text-purple-600 font-bold text-lg">Score: {score} ⭐</span>
+            <span className="text-blue-600 font-bold text-lg">Score: {score} ⭐</span>
           </div>
         </div>
 

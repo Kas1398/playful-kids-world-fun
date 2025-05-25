@@ -28,20 +28,20 @@ const WelcomeScreen = ({ onNameSubmit }: WelcomeScreenProps) => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-200 via-pink-200 to-purple-300 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-200 via-green-200 to-yellow-200 flex items-center justify-center p-4">
       <div className="text-center max-w-md w-full">
         <div className="bounce-gentle mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-green-600 mb-4">
             🎪 Christian's Playground 🎨
           </h1>
           <div className="text-6xl mb-6">🌟✨🎈</div>
         </div>
 
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl pulse-rainbow">
-          <h2 className="text-3xl font-semibold text-purple-700 mb-6">
+          <h2 className="text-3xl font-semibold text-blue-700 mb-6">
             Hi there, little explorer! 👋
           </h2>
-          <p className="text-xl text-purple-600 mb-6">
+          <p className="text-xl text-blue-600 mb-6">
             What's your name? I can't wait to play with you! 🎮
           </p>
           
@@ -52,22 +52,22 @@ const WelcomeScreen = ({ onNameSubmit }: WelcomeScreenProps) => {
                 value={name}
                 onChange={handleInputChange}
                 placeholder="Type your name here..."
-                className="text-2xl p-6 rounded-2xl border-4 border-purple-300 focus:border-pink-400 text-center font-semibold text-purple-700"
+                className="text-2xl p-6 rounded-2xl border-4 border-blue-300 focus:border-green-400 text-center font-semibold text-blue-700"
                 autoFocus
               />
             </div>
             
             <Button 
               type="submit" 
-              className="w-full text-2xl py-6 px-8 rounded-2xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold shadow-lg transform transition-all duration-300 hover:scale-105 active:scale-95"
+              className="w-full text-2xl py-6 px-8 rounded-2xl bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-bold shadow-lg transform transition-all duration-300 hover:scale-105 active:scale-95"
             >
               Let's Play! 🚀
             </Button>
           </form>
         </div>
 
-        <div className="mt-8 text-lg text-purple-600">
-          🎵 Get ready for fun games and adventures! 🌈
+        <div className="mt-8 text-lg text-blue-600">
+          🎵 Get ready for fun games and adventures! 🌟
         </div>
       </div>
     </div>

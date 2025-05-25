@@ -38,7 +38,7 @@ const Index = () => {
 
   if (currentGame) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100">
+      <div className="min-h-screen bg-gradient-to-br from-blue-100 via-green-100 to-yellow-100">
         <GameScreen 
           gameType={currentGame} 
           childName={childName} 
@@ -51,10 +51,10 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-green-100 to-yellow-100">
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bounce-gentle">
+          <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-green-600 bounce-gentle">
             Welcome, {childName}! Let's play! 🎉
           </h1>
         </div>
